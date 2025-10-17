@@ -22,13 +22,19 @@ A modern, feature-rich Tic Tac Toe game with AI opponent, beautiful glassmorphis
 
 ```bash
 Tic-Tac-Toe-Titan/
+├── .github/
+│   └── ISSUE_TEMPLATE/
+│       ├── bug_report.md
+│       └── feature_request.md
 ├── Screenshots/
-│ └── screenshot.png # Game screenshot
-├── index.html # Main game interface
-├── styles.css # Complete visual styling with glassmorphism
-├── script.js # Game logic and AI implementation
-├── README.md # This document
-└── LICENSE # MIT License
+│   └── screenshot.png          # Game screenshot
+├── index.html                  # Main game interface
+├── styles.css                  # Complete visual styling
+├── script.js                   # Game logic and AI implementation
+├── CONTRIBUTING.md             # Contribution guidelines
+├── SECURITY.md                 # Security policy
+├── README.md                   # This document
+└── LICENSE                     # MIT License
 ```
 
 ## 🚀 Features
@@ -104,6 +110,14 @@ The AI uses the Minimax algorithm with alpha-beta pruning:
 2. **VS AI Mode**: Play against the computer with your chosen difficulty
 3. **Objective**: Get three of your symbols in a row (horizontal, vertical, or diagonal)
 4. **First Move**: Configure who starts the game in AI settings
+
+## 🤝 Contributing
+
+Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) and check out the [Wiki](../../wiki) for documentation.
+
+## 🔒 Security
+
+For security concerns, please see our [Security Policy](SECURITY.md).
 
 ## 📜 License
 
